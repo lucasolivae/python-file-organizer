@@ -20,3 +20,8 @@ Este script organiza automaticamente os arquivos de uma pasta com base em suas e
 
 ```bash
 python organizer.py
+
+## Autor
+Lee
+GitHub: https://github.com/lucasolivae
+Desenvolvedor Brasileiro | Python & C# | Inglês (Intermediário)
