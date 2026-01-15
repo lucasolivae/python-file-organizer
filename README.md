@@ -1,27 +1,60 @@
-# Python File Organizer
+# Database Site - Flask
 
-A simple file organizer built with Python.
-This script automatically organizes files in a folder based on their file extensions.
+🇧🇷 Projeto web simples desenvolvido em Python usando Flask.  
+Permite cadastrar clientes em um banco de dados SQLite e visualizar suas informações.  
 
-## What This Script Does
-- Scans all files in the current folder
-- Creates folders based on file type (Images, Videos, Documents, Others)
-- Moves files to the appropriate folder automatically
+🇺🇸 Simple web project developed in Python using Flask.  
+Allows registering clients in a SQLite database and viewing their information.
 
-## How to Use
+## Funcionalidades | Features
 
-### Requirements
-- Python 3.x installed
+🇧🇷
+- Cadastro de clientes (nome, data de nascimento e telefone)
+- Geração automática de ID alfanumérico
+- Listagem de todos os clientes
+- Página individual para cada cliente
+- Armazenamento em banco SQLite
 
-### Running the Script
-1. Place `organizer.py` inside the folder you want to organize
-2. Open a terminal in that folder
-3. Run:
+🇺🇸
+- Client registration (name, birth date and phone)
+- Automatic alphanumeric ID generation
+- List all registered clients
+- Individual client page
+- Data stored in SQLite database
 
-```bash
-python organizer.py
+## Como usar | How to use
 
-## Author
-Lee
-GitHub: https://github.com/lucasolivae
-Brazilian Developer | Python & C# | English (Intermediary)
+Requisitos | Requirements  
+- Python 3.x  
+- Flask  
+
+Instalação | Installation  
+pip install flask  
+
+Executando o projeto | Running the project  
+python codigo.py  
+
+Abra no navegador | Open in browser  
+http://127.0.0.1:5000  
+
+## Estrutura do projeto | Project structure
+
+database_site/  
+│  
+├─ codigo.py  
+├─ database.db  
+└─ templates/  
+   ├─ index.html  
+   └─ cliente.html  
+
+## Objetivo | Purpose
+
+🇧🇷 Projeto de estudo em backend para portfólio.  
+🇺🇸 Backend study project for portfolio.
+
+## Autor | Author
+
+Lee  
+GitHub: https://github.com/lucasolivae  
+Desenvolvedor Brasileiro | Python & C# | Inglês (Intermediário)  
+Brazilian Developer | Python & C# | English (Intermediate)
