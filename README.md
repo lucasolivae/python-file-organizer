@@ -1,56 +1,43 @@
-# Database Site - Flask
+# Organizador de Arquivos em Python | Python File Organizer
 
-🇧🇷 Projeto web simples desenvolvido em Python usando Flask.  
-Permite cadastrar clientes em um banco de dados SQLite e visualizar suas informações.  
+🇧🇷  
+Um organizador de arquivos simples desenvolvido em Python.  
+Este script organiza automaticamente os arquivos de uma pasta com base em suas extensões.
 
-🇺🇸 Simple web project developed in Python using Flask.  
-Allows registering clients in a SQLite database and viewing their information.
+🇺🇸  
+A simple file organizer developed in Python.  
+This script automatically organizes files in a folder based on their extensions.
 
-## Funcionalidades | Features
+---
+
+## O que este script faz | What this script does
 
 🇧🇷
-- Cadastro de clientes (nome, data de nascimento e telefone)
-- Geração automática de ID alfanumérico
-- Listagem de todos os clientes
-- Página individual para cada cliente
-- Armazenamento em banco SQLite
+- Analisa todos os arquivos da pasta atual  
+- Cria pastas por tipo de arquivo (Imagens, Vídeos, Documentos, Outros)  
+- Move os arquivos automaticamente  
 
 🇺🇸
-- Client registration (name, birth date and phone)
-- Automatic alphanumeric ID generation
-- List all registered clients
-- Individual client page
-- Data stored in SQLite database
+- Scans all files in the current folder  
+- Creates folders by file type (Images, Videos, Documents, Others)  
+- Automatically moves files  
+
+---
 
 ## Como usar | How to use
 
 Requisitos | Requirements  
-- Python 3.x  
-- Flask  
+- Python 3.x instalado | Python 3.x installed  
 
-Instalação | Installation  
-pip install flask  
+Executando o script | Running the script  
 
-Executando o projeto | Running the project  
-python codigo.py  
+1. Coloque o arquivo `organizer.py` na pasta que deseja organizar  
+2. Abra um terminal nessa pasta  
+3. Execute:
 
-Abra no navegador | Open in browser  
-http://127.0.0.1:5000  
+python organizer.py
 
-## Estrutura do projeto | Project structure
-
-database_site/  
-│  
-├─ codigo.py  
-├─ database.db  
-└─ templates/  
-   ├─ index.html  
-   └─ cliente.html  
-
-## Objetivo | Purpose
-
-🇧🇷 Projeto de estudo em backend para portfólio.  
-🇺🇸 Backend study project for portfolio.
+---
 
 ## Autor | Author
 
